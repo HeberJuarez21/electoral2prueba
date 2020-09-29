@@ -23,5 +23,5 @@ public class Distritos_localesController {
 			 @RequestParam(name = "isactive") Boolean isactive,
 			 @RequestParam(name = "estado_id") Long estado_id) {
 		return serv.savedistlocales(dist_local_nombre, dist_local_numero, dist_local_coordinador, isactive, estado_id);
-	 }
+	 } //segundo cambio para subit al git
 }
